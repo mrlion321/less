@@ -35,22 +35,42 @@ const DATA_DIR = process.env.DATA_DIR || "/tmp/nautica-lb-data";
 const CONFIG_FILE = process.env.CONFIG_FILE || path.join(DATA_DIR, "config.json");
 
 const WORKER_URLS = [
-  "cf.bebas11.workers.dev",
-  "cf.bebas9.workers.dev",
-  "avaritia.elvinrakus.workers.dev",
-  "urv-worker-cf.renaldisch.workers.dev",
-  "cf.buatvpn.workers.dev",
-  "cf.kebal1.workers.dev",
-  "cf.osianne23.workers.dev",
-  "wibu.wibucf6.workers.dev",
-  "cf.yeyay736.workers.dev",
-  "cf.andremith59.workers.dev",
-  "fajar.masfajar0004.workers.dev",
-  "cf.evintokes.workers.dev",
-  "rizaxyz.uddyalsh4.workers.dev",
-  "rizaxy.allieisozk96.workers.dev"
+const WORKER_URLS = [
+  "nauticamodv3.fengwhuut.workers.dev",
+  "nauticamodv4.fengwhuut.workers.dev",
+  "fgfg.my.id",
+  "cfcdn.viu.com.fgfg.my.id",
+  "cdn.onesignal.com.fgfg.my.id",
+  "api-gateway-global.viu.com.fgfg.my.id",
+  "nauticamodv5.fengwhuut.workers.dev",
+  "nauticamodv6.fengwhuut.workers.dev",
+  "cdn.onesignal.com.fengwhuut.dpdns.org",
+  "cdn.opensignal.com.fengwhuut.dpdns.org",
+  "cfcdn.viu.com.fengwhuut.dpdns.org",
+  "nauticamodv8.fengwhuut.workers.dev",
+  "vpn-geo.fengwhuut.workers.dev",
+  "opensignal.com.fg--fg.l.cd",
+  "cfcdn.viu.com.fg--fg.l.cd",
+  "cdn.opensignal.com.fg--fg.l.cd",
+  "vpn-geov2.fengwhuut.workers.dev",
+  "onesignal.com.fg--fg.rr.kg",
+  "api-gateway-global.viu.com.fg--fg.rr.kg",
+  "cdn.onesignal.com.fg--fg.rr.kg",
+  "cdn.opensignal.com.fg--fg.rr.kg",
+  "vpn-geov3.fengwhuut.workers.dev",
+  "vpn-geov4.fengwhuut.workers.dev",
+  "fg--f.rr.kg",
+  "onesignal.com.fg--f.rr.kg",
+  "cfcdn.viu.com.fg--f.rr.kg",
+  "wildcard.fengwhuut.workers.dev",
+  "cfcdn.viu.com.feng.fgfg.indevs.in",
+  "fengvpn.fgfg.indevs.in",
+  "cfcdn.viu.com.fengvpn.fgfg.indevs.in",
+  "maxis.fg--fg.rr.kg",
+  "onesignal.com.maxis.fg--fg.l.cd",
+  "maxis.fg--fg.l.cd",
+  "cdn.onesignal.com.maxis.fg--fg.l.cd"
 ];
-
 const PROXY_BANK_URL =
   process.env.PROXY_BANK_URL ||
   "https://raw.githubusercontent.com/papapapapdelesia/Emilia/refs/heads/main/Data/Country-ALIVE.txt";
